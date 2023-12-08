@@ -1,0 +1,138 @@
+/* CSS Extra Examen door Sue */
+
+body {
+	background: #e5d2c1;
+	background-image: url(../images/stripverloopokapi.jpg);
+	background-repeat: repeat-x;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+header > img {
+	border: none;
+}
+
+img#logo{
+	float:left;
+	position: absolute;
+	top: 10px;
+	left: 420px;
+}
+
+div#main {
+	width: 970px;
+	height: 1000px;
+	background: #ECE9E0;
+	margin: 0 auto 0 auto;
+	border: black 2px solid;
+}
+
+nav {
+    width: 800px;
+    height: 40px;
+	font-family: Verdana, Geneva, sans-serif;
+    margin: 0 auto 0 auto;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    width: 120px;
+    height: 40px;
+    float: left;
+    display: block;
+	text-align: center;
+    padding-top: 10px;
+}
+
+
+
+nav a{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+ 
+	text-decoration:underline;
+}
+
+
+section {
+	width: 60%;
+    box-sizing:border-box;
+	height: 595px;
+	float: left;
+	padding: 0 10px 10px 10px;
+	
+	margin-top: 20px;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+aside#fotodiv {
+	width: 40%;
+	height: 605px;
+    box-sizing:border-box;
+	float: left;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+
+img {
+	border: #000 1px solid;
+	margin-bottom: 8px;
+}
+
+header {
+	width: 970px;
+	height: 180px;
+	border-bottom: black 1px solid;	
+}
+
+p.quote {
+	border: black  1px solid;
+	padding: 10px 10px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+
+article > img {
+	border: #000 1px solid;
+	margin: 10px 10px 10px 0;
+    float: left;
+}
+
+.blackline{
+	width: 970px;
+	height: 6px;
+	background: #000;
+	float: left;
+	margin-top: 50px;
+}
+
+footer {
+	width: 945px;
+	height: 38px;
+	text-align: right;
+	float: right;
+	font-size: 12px;
+	padding: 10px 25px 0 0;
+}
